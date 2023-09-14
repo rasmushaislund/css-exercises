@@ -43,9 +43,8 @@
   /* grid-template-areas: ". list list list list"; */
 }
 
-
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
   display: grid;
   gap: 50px;
   grid-row: 2 / 4;
@@ -61,7 +60,6 @@
   align-items: center;
 }
 
-
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -69,13 +67,14 @@
   font-weight: normal;
 }
 
-.side-content, .photo {
-  display: grid; 
+.side-content,
+.photo {
+  display: grid;
   align-items: center;
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #ff7755;
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   align-items: center;
@@ -110,7 +109,7 @@
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   text-align: center;
   height: 200px;
@@ -126,7 +125,6 @@
   font-size: 18px;
   text-align: center;
 }
-
 
 .footer {
   background-color: #393f4d;

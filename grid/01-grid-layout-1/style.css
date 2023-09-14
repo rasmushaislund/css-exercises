@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -13,7 +14,6 @@ body, html {
   grid-template-columns: 300px 900px;
   grid-template-rows: 100px 100px 500px 100px;
   justify-content: center;
-
 }
 
 .container div {
@@ -26,19 +26,19 @@ body, html {
 }
 
 .header {
-  background-color: #FFDE22;
+  background-color: #ffde22;
   grid-column: 1 / -1;
   grid-row: 1;
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
   grid-column: 1;
   grid-row: 2 / 4;
 }
 
 .nav {
-  background-color: #00DDFF;
+  background-color: #00ddff;
   grid-column: 2 / -1;
   grid-row: 2;
 }
